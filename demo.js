@@ -1,3 +1,2 @@
 //Create a file with some bad code
-
-echo function test() { let x = 1; } > main.js
+echo console.log(undefined_variable); >> main.js
