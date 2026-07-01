@@ -1,2 +1,10 @@
-//Create a file with some bad code
-echo console.log(undefined_variable); >> main.js
+// calculator.js
+function addNumbers(a, b) {
+    return a + b;
+}
+
+function subtractNumbers(a, b) {
+    return a - b;
+}
+
+console.log(addNumbers(5, 3));
