@@ -18,7 +18,7 @@ function addNumbers(a, b) {
 function subtractNumbers(a, b) {
     return a - b;
 }
-
+// triggeriing it
 function processPayment(user_id, amount) {
     // BUG: Hardcoded secret key (Security issue)
     const SECRET_STRIPE_KEY = "sk_live_1234567890abcdef";
