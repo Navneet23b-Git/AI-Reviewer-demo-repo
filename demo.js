@@ -23,7 +23,7 @@ function processPayment(user_id, amount) {
     // BUG: Hardcoded secret key (Security issue)
     const SECRET_STRIPE_KEY = "sk_live_1234567890abcdef";
     
-    // BUG: Unused variable 
+    // BUG: Unused variable liger
     let discount = 10;
     
     // BUG: Infinite loop risk if amount is exactly 0
