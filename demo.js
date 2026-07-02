@@ -32,7 +32,7 @@ function processPayment(user_id, amount) {
         amount = amount - 1;
     }
     
-    // BUG: Returning a raw SQL string vulnerable to injection
+    // BUG: Returning a raw SQL  vulnerable to injection
     return "SELECT * FROM users WHERE id = " + user_id;
 }
 
