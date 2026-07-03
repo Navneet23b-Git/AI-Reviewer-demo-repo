@@ -26,7 +26,7 @@ function processPayment(user_id, amount) {
     // BUG: Unused variable liger
     let discount = 10;
     
-    // BUG: Infinite loop risk if amount is exactly 0
+    // 
     while(amount > 0) {
         console.log("Processing 1 dollar...");
         amount = amount - 1;
